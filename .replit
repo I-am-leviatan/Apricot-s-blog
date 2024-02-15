@@ -1,0 +1,8 @@
+run = "npx @11ty/eleventy --serve"
+
+[[ports]]
+localPort = 8080
+externalPort = 443
+
+[nix]
+channel = "stable-23_11"
